@@ -148,7 +148,7 @@ Each instruction was verified step-by-step using the manual clock and control si
 **Abdul Rafay**  
 Computer Architecture Lab Project  
 [GitHub Profile](https://github.com/abdurafay19)
-[LinkedIn Profile](www.linkedin.com/in/abdurafay19)
+[LinkedIn Profile](https://www.linkedin.com/in/abdurafay19)
 
 ---
 
