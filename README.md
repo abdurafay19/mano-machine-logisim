@@ -6,7 +6,7 @@ A functional Mano Machine built from scratch in Logisim Evolution, demonstrating
 
 ---
 
-## 📘 Overview
+## Overview
 
 The **Mano Machine** is a complete processor implementation of the **Basic Computer** architecture described in *M. Morris Mano’s Digital Design, Chapter 5*.  
 This project was designed and verified using **Logisim Evolution**, following the principles of register transfer logic, bus-based data movement, and hardwired control.
@@ -143,11 +143,12 @@ Each instruction was verified step-by-step using the manual clock and control si
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Abdul Rafay**  
-📘 Computer Architecture Lab Project  
-💻 [GitHub Profile](https://github.com/abdurafay19)
+Computer Architecture Lab Project  
+[GitHub Profile](https://github.com/abdurafay19)
+[LinkedIn Profile](www.linkedin.com/in/abdurafay19)
 
 ---
 
