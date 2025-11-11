@@ -108,3 +108,51 @@ Below is a list of the custom subcircuits designed for modularity:
 33. FullAdder12Bit
 34. Register4Bit
 35. Encoder3Bit
+
+
+Each module was constructed using basic logic gates and multiplexers to simulate microoperations accurately.
+
+---
+
+## Circuit Snapshots
+
+### Main CPU View
+![Main Circuit](./screenshots/main_circuit.png)
+
+### ALU and Control Unit Modules
+![ALU Module](./screenshots/alu.png)
+
+---
+
+## Testing and Verification
+
+All **hexadecimal programs from Morris Mano’s textbook** were loaded into the memory and executed successfully.  
+Each instruction was verified step-by-step using the manual clock and control signals.
+
+✅ Achieved **Full Marks** for correctness and design clarity.
+
+---
+
+## How to Run
+
+1. Install "Logisim Evolution".
+2. Open `Processsor.circ` in Logisim Evolution.
+3. Load program memory with your `.hex` file.
+4. Start the clock or use manual stepping to observe instruction execution.
+5. Monitor the registers and bus signals to see program flow in real time.
+
+---
+
+## 👨‍💻 Author
+
+**Abdul Rafay**  
+📘 Computer Architecture Lab Project  
+💻 [GitHub Profile](https://github.com/abdurafay19)
+
+---
+
+## 📜 License
+
+This project is open-source under the [MIT License](./LICENSE).
+
+
