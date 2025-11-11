@@ -120,7 +120,7 @@ Each module was constructed using basic logic gates and multiplexers to simulate
 ![Main Circuit](./screenshots/main_circuit.png)
 
 ### ALU and Control Unit Modules
-![ALU Module](./screenshots/alu.png)
+![ALU Module](./screenshots/ALU_module.png)
 
 ---
 
