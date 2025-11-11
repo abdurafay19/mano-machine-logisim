@@ -151,8 +151,14 @@ Each instruction was verified step-by-step using the manual clock and control si
 
 ---
 
-## 📜 License
+## Academic Integrity Notice
 
-This project is open-source under the [MIT License](./LICENSE).
+© 2025 Abdul Rafay — All Rights Reserved.  
+This project is published for educational viewing only.
+
+Reusing, modifying, or submitting this work (in whole or in part) for any
+academic assessment, coursework, or lab project by others is strictly
+prohibited and may constitute academic misconduct.
+
 
 
