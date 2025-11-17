@@ -119,7 +119,7 @@ Each module was constructed using basic logic gates and multiplexers to simulate
 ### Main CPU View
 ![Main Circuit](./screenshots/main_circuit.png)
 
-### ALU and Control Unit Modules
+### ALU Module
 ![ALU Module](./screenshots/ALU_module.png)
 
 ---
