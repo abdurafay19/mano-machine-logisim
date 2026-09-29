@@ -1,5 +1,12 @@
 # mano-machine-logisim
 A functional Mano Machine built from scratch in Logisim Evolution, demonstrating the core principles of computer architecture and control design.
+
+**At a glance:** 16-bit stored-program CPU · 25 instructions · 35 custom subcircuits · 4K × 16 memory · hardwired control
+
+## Demo
+
+<!-- TODO: Add a GIF of a program running on the Mano Machine, e.g. ![Demo](./screenshots/demo.gif) -->
+
 **Author:** Abdul Rafay  
 **Course:** Computer Architecture Lab Project  
 **Tool:** Logisim Evolution  
@@ -8,7 +15,7 @@ A functional Mano Machine built from scratch in Logisim Evolution, demonstrating
 
 ## Overview
 
-The **Mano Machine** is a complete processor implementation of the **Basic Computer** architecture described in *M. Morris Mano’s Digital Design, Chapter 5*.  
+The **Mano Machine** is a complete processor implementation of the **Basic Computer** architecture described in *M. Morris Mano’s Computer System Architecture, Chapter 5 (Basic Computer Organization and Design)*.  
 This project was designed and verified using **Logisim Evolution**, following the principles of register transfer logic, bus-based data movement, and hardwired control.
 
 All modules — from arithmetic units to control logic — were built from fundamental logic components, demonstrating the working of a simple stored-program computer.
@@ -19,8 +26,8 @@ All modules — from arithmetic units to control logic — were built from funda
 
 | Component | Description |
 |------------|--------------|
-| **Control Unit** | Fires Control signal to all the control pins through out the circuit at ever clockpulse |
-| **Registers** | AC, DR, AR, IR, PC, TR — each implemented as a subcircuit (12, or 16 bits). |
+| **Control Unit** | Generates the control signals for every register, the bus, memory, and the ALU on each clock pulse (hardwired control). |
+| **Registers** | AC, DR, AR, IR, PC, TR, INPR, OUTR — each implemented as a subcircuit (8, 12, or 16 bits). |
 | **Bus System** | A shared 16-bit data path connecting all registers and Memory. |
 | **ALU (Arithmetic Logic Unit)** | Performs arithmetic and logical micro-operations using 16-bit Full Adder, Logic Unit, and Shifter Unit. |
 | **Memory Unit** | 4096 × 16-bit memory used to store programs and data. |
@@ -77,7 +84,7 @@ Below is a list of the custom subcircuits designed for modularity:
 2. Register12Bit
 3. Register16Bit
 4. Adder8Bit
-5. Adder16Bit
+5. FullAdder16Bit
 6. FullAdder1Bit
 7. ArithmeticUnit16Bit
 8. LogicUnit16Bit
@@ -136,7 +143,7 @@ Each instruction was verified step-by-step using the manual clock and control si
 ## How to Run
 
 1. Install "Logisim Evolution".
-2. Open `Processsor.circ` in Logisim Evolution.
+2. Open `Processor.circ` in Logisim Evolution.
 3. Load program memory with your `.hex` file.
 4. Start the clock or use manual stepping to observe instruction execution.
 5. Monitor the registers and bus signals to see program flow in real time.
